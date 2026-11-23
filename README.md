@@ -119,4 +119,4 @@ TivaHome follows least-privilege Android permission practices:
 
 ## License
 
-Built for the **CSE322: Introduction to Embedded Systems** Home Appliances Control project. Feel free to adapt for academic and hardware prototyping use.
+This project is licensed under the [MIT License](LICENSE).
