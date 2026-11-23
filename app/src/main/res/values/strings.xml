@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">TivaHome</string>
+
+    <!-- Navigation & Drawer -->
+    <string name="nav_open_drawer">Open navigation menu</string>
+    <string name="nav_dashboard">Home Dashboard</string>
+    <string name="nav_door_log">Door Activity Log</string>
+    <string name="nav_bluetooth">Bluetooth &amp; Connections</string>
+    <string name="nav_serial_terminal">Serial Terminal</string>
+    <string name="nav_pin_map">Pin Map &amp; Protocol</string>
+    <string name="nav_settings">Settings</string>
+    <string name="drawer_subtitle">TM4C123GH6PM • HC-05 SPP</string>
+
+    <!-- Connection Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_reconnecting">Reconnecting…</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_sync_status">Sync Status</string>
+    <string name="action_scan_devices">Scan Nearby</string>
+    <string name="action_stop_scan">Stop Scan</string>
+
+    <!-- Dashboard & Appliances -->
+    <string name="appliance_lamp_title">220V Lamp</string>
+    <string name="appliance_lamp_subtitle">PA2 Relay • Parallel Manual Switch</string>
+    <string name="appliance_plug_title">Power Plug</string>
+    <string name="appliance_plug_subtitle">PA3 Relay • Live Mains Cut-off</string>
+    <string name="door_sensor_title">Door Sensor</string>
+    <string name="door_sensor_subtitle">PA4 Magnetic Switch</string>
+    <string name="door_open">OPEN</string>
+    <string name="door_closed">CLOSED</string>
+    <string name="door_unknown">UNKNOWN</string>
+    <string name="temp_card_title">Room Temperature</string>
+    <string name="temp_card_subtitle">PE3 (AIN0) • LM35 • 1 Hz Telemetry</string>
+    <string name="temp_limit_label">Thermal Alert Limit</string>
+    <string name="temp_limit_apply">Apply Limit</string>
+
+    <!-- Thermal Alert -->
+    <string name="alarm_banner_title">High Temperature Alert</string>
+    <string name="alarm_banner_mute">Mute Alert</string>
+    <string name="alarm_banner_muted">Alert muted for current episode</string>
+
+    <!-- Door Log -->
+    <string name="door_log_empty_title">No Door Activity Recorded</string>
+    <string name="door_log_empty_body">Opening or closing the magnetic door switch on PA4 automatically logs events with your phone clock.</string>
+    <string name="door_log_clear">Clear Log</string>
+    <string name="door_log_export">Export CSV</string>
+
+    <!-- Serial Terminal -->
+    <string name="terminal_hint">Send ASCII command (e.g. STATUS?)</string>
+    <string name="terminal_send">Send</string>
+    <string name="terminal_empty">No UART traffic yet. Connect to HC-05 to monitor 9600-baud lines.</string>
+
+    <!-- Pin Map & Protocol -->
+    <string name="pin_map_title">TM4C123GH6PM Pin Map</string>
+    <string name="protocol_title">9600-Baud ASCII Protocol</string>
+
+    <!-- Settings -->
+    <string name="settings_reset_confirm_title">Clear Door History?</string>
+    <string name="settings_reset_confirm_body">This permanently deletes all saved door opening and closing timestamps from this device.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+</resources>

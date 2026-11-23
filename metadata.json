@@ -1,0 +1,6 @@
+{
+  "name": "TivaHome",
+  "description": "Bluetooth SPP smart-home controller and telemetry monitor for the TM4C123GH6PM and HC-05 Home Appliances Control prototype.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
